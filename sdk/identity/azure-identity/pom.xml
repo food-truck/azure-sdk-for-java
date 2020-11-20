@@ -137,6 +137,10 @@
               </filters>
               <relocations>
                 <relocation>
+                  <pattern>io.netty</pattern>
+                  <shadedPattern>io.netty0</shadedPattern>
+                </relocation>
+                <relocation>
                   <pattern>com.fasterxml</pattern>
                   <shadedPattern>com.fasterxml2</shadedPattern>
                   <excludes>
